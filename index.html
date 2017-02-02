@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Completar escribiendo</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- JQuery UI -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    <link href="css/estilos.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="main" class="main">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 wow bounceInDown">
+                    <h1>Esquemas de pago</h1>
+                </div>
+                <div class="col-md-12 wow bounceInUp" style="padding:20px">
+                    <p>
+                        Completa los siguientes textos, escribe en los espacios en blanco la palabra correcta:
+                    </p>
+                    <div id="completable">
+                        <p>Los recursos disponibles en la adquisición de un inmueble son aquellos con los que cuenta el <input type="text" data-respuesta="cliente"> para solventar la operación de compra-venta (cobertura total del <input type="text" data-respuesta="valor"> de <input type="text" data-respuesta="vivienda">, costo de <input type="text" data-respuesta="avalúo">, gastos del <input type="text" data-respuesta="banco">, gastos <input type="text" data-respuesta="notariales"> y <input type="text" data-respuesta="honorarios"> del notario).<p>
+                        <p>De esta forma los <input type="text" data-respuesta="destinos"> del crédito son los <input type="text" data-respuesta="usos"> que puede tener un <input type="text" data-respuesta="crédito"> hipotecario.</p>
+                        <p>Los <input type="text" data-respuesta="esquemas"> de <input type="text" data-respuesta="pago"> se refieren a los distintos tipos de <input type="text" data-respuesta="hipoteca"> que ofrecen las <input type="text" data-respuesta="instituciones"> que otorgan créditos. Se dividen entre tipos básicos: <input type="text" data-respuesta="pesos">, <input type="text" data-respuesta="UDIS"> y veces <input type="text" data-respuesta="salarios"> mínimos.</p>
+                        <p>La diferencia entre los pagos UDIS y los pagos veces salarios mínimos (VSMS) es que el primero está relacionado a la <input type="text" data-respuesta="inflación">, por lo que la mensualidad a pagar se ajusta en <input type="text" data-respuesta="pesos"> al valor de la UDI al <input type="text" data-respuesta="día">, mientas que los pagos VSMS  se ajustan al salario <input type="text" data-respuesta="mínimo mensual"> de la Ciudad de México.</p>
+                    </div>
+                    <div class="pager">
+                        <input id="btnCalificar" name="calificar" class="btn btn-primary" type="submit" value="Revisar">
+                        <input id="btnResetear" name="resetear" class="btn btn-default" type="submit" value="Limpiar">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="dialog" class="retroalimentacion" title="Mensaje">
+            <p>&nbsp</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="js/codigo.js"></script>
+</body>
+</html>
